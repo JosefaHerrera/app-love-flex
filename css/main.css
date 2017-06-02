@@ -63,9 +63,6 @@ body {
   border-radius:5px;
   font-weight: 500;
   text-transform: uppercase;
-  margin-top:63px;
-  display: inline-block;
-  font-size: 14px;  
 }
 
 
@@ -98,20 +95,6 @@ body {
 	background-color: #373b47;
 	color:whitesmoke;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**ESTILOS PARA LOS LINKS**/
 .link{
   font-weight: 700;
@@ -126,3 +109,47 @@ a {
 a:hover {
   color: #E95853;
 }
+
+
+/************EVALUADO**********/
+
+/*ESTILO DE WORK*/
+.img-responsive{
+	max-width: 100%;
+	width: 100%;
+}
+
+#work{
+	background-color:white;
+	text-align: center;
+	padding: 70px;
+}
+
+#work.flex-container{
+/*space-around =se distribuyen los elementos internos y dejando espacios a cada lado*/
+	justify-content: space-around;
+/*wrap= para que no se vean forzados los elementos a desplegarse en una sola linea*/
+	flex-wrap: wrap;
+}
+.box-work img{
+	width: 40%;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
