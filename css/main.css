@@ -6,3 +6,71 @@ body {
   /* Enlaza la tipografia Open Sans */
   font-family: 'Open Sans', sans-serif;
 }
+/**CONTENEDOR FLEXBOX**/
+.flex-container{
+	display: flex;
+}
+/**ESTILO PARA NUESTRO MENU NAV**/
+.menu{
+	background-color: white;
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+}
+/*la propiedad justify-content con el valor flex-start, logramos que nuestros elementos queden alineados a la izq */
+.menu.flex-container{
+	justify-content: flex-start;
+}
+/*para que el logo quede hacia la derecha, ocupamos margin-left:auto; (afecta solo el lado derecho del margin*/
+.logo-container{
+	margin-left: auto;
+	margin-right: 20px;
+}	
+/*dimensiones del logo*/
+.flex-container .logo{
+	width: 70px;
+	height: 70px;
+}
+
+/**ESTILOS PARA HOME**/
+#home{
+	height: 600px;
+	margin-top: 70px;
+
+	background-image: url(../assets/images/bg-home.jpg);
+	background-position: center;
+	background-size: cover;
+	/*background-attachment = fija la imagen en el fondo*/
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	/*para que nuestros elementos esten centrados, horizontal y vertical , usamos el valor *center* y ocupamos las propiedades justify-content Y flex-direction*/
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	color:whitesmoke;  
+}
+
+.text-home{
+	font-size: 2.4em;
+}
+
+.btn-home{
+	background-color: green;
+}
+
+/**ESTILOS PARA LOS LINKS**/
+.link{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+}
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
