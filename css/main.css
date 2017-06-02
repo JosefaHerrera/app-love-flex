@@ -55,10 +55,62 @@ body {
 .text-home{
 	font-size: 2.4em;
 }
-
+/*ARREGLAR BOTON ! */
 .btn-home{
-	background-color: green;
+  background: #2Ecc71;
+  color:#fff;
+  padding: 11px 20px;
+  border-radius:5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top:63px;
+  display: inline-block;
+  font-size: 14px;  
 }
+
+
+/**SERVICES **/
+/*centrar texto*/
+#services{
+	background-color: #f17C72;
+	text-align: center;
+	color: #fff;
+	padding: 70px;
+}
+
+#services.flex-container{
+/*space-around =se distribuyen los elementos internos y dejando espacios a cada lado*/
+	justify-content: space-around;
+/*wrap= para que no se vean forzados los elementos a desplegarse en una sola linea*/
+	flex-wrap: wrap;
+}
+.box-services{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/**ESTILO DE FOOTER**/
+/*para que nuestros elementos esten centrados, horizontal y vertical , usamos el valor *center* y ocupamos las propiedades justify-content Y flex-direction*/
+#footer{
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #373b47;
+	color:whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**ESTILOS PARA LOS LINKS**/
 .link{
