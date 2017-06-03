@@ -192,7 +192,9 @@ cursor:pointer;
     padding: 100px;
     margin-top: -27px;
 }
-
+.img-responsive{
+	width: 100%;
+}
 
 
 
