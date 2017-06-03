@@ -114,27 +114,43 @@ a:hover {
 /************EVALUADO**********/
 
 /*ESTILO DE WORK*/
-.img-responsive{
-	max-width: 100%;
-	width: 100%;
-}
-
 #work{
-	background-color:white;
-	text-align: center;
 	padding: 70px;
 }
 
-#work.flex-container{
-/*space-around =se distribuyen los elementos internos y dejando espacios a cada lado*/
-	justify-content: space-around;
-/*wrap= para que no se vean forzados los elementos a desplegarse en una sola linea*/
-	flex-wrap: wrap;
+#productos-work{
+	padding-bottom: 70px;
 }
-.box-work img{
-	width: 40%;
 
+.box-work{
+	text-align: center;
+	padding: 0;
+	margin: 0;
 }
+
+#work #productos-work.flex-container{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#work #imagenes.flex-container{
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#work #productos-work img{
+	width: 100%;
+}
+
+#work #imagenes img{
+	width: 350px;
+	height: auto;
+	cursor: pointer;
+	padding: 0;
+}
+
 
 
 
@@ -165,12 +181,12 @@ cursor:pointer;
   width:60px;
 }
 
-#box-work-modal .modal-body{
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 100px;
-
+#box-work-modal .modal-body {
+    /* width: 59%; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px;
+    margin-top: -27px;
 }
 
 
