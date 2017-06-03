@@ -150,6 +150,10 @@ a:hover {
 	cursor: pointer;
 	padding: 0;
 }
+#imagenes img:hover{
+	opacity: 0.5;
+}
+
 
 
 
